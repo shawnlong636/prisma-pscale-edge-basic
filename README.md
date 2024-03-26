@@ -1,38 +1,15 @@
-# create-svelte
+# Basic Prisma PlanetScale Vercel Edge Example
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+ This is a basic application that demonstrates an issue with Prisma's new preview feature, driver adapters. You'll notice that this project works great in local development.
 
-## Creating a project
+![](static/working-example.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+However, when vercel attempts to build and deploy the repo, it results in the following error:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+>Error: PrismaClient is not configured to run in Vercel Edge Functions or Edge Middleware. In order to run Prisma Client on edge runtime, either: - Use Prisma Accelerate: https://pris.ly/d/accelerate - Use Driver Adapters: https://pris.ly/d/driver-adapters If this is unexpected, please open an issue: https://pris.ly/prisma-prisma-bug-report    at (../../../../node_modules/.pnpm/@prisma+client@5.11.0_prisma@5.11.0/node_modules/.prisma/client/index-browser.js:173:14)    at (../../../../.svelte-kit/output/server/entries/pages/_page.server.ts.js:8:29)    at (../../../../.svelte-kit/output/server/index.js:1001:41)    at (../../../../.svelte-kit/output/server/index.js:2531:23)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+![](static/failing-example.png)
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![](static/vercel-error.png)
