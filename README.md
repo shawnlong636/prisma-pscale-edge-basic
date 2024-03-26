@@ -1,5 +1,34 @@
 # Basic Prisma PlanetScale Vercel Edge Example
 
+## Steps to Reproduce
+
+1. Create a PlanetScale Database
+
+2. Add `DATABASE_URL` to a .env file in project root
+
+3. Install dependencies using `pnpm install`
+
+4. Push schema changes to database
+
+   ```bash
+   prisma db push
+   prisma generate
+   ```
+
+5. Start Local Dev Server
+
+   ```bash
+   pnpm build
+   pnpm dev
+   ```
+
+6. Fork the repo to your own account
+
+7. Import the forked-repo into vercel
+
+8. View Deployment and Logs to see error
+
+## Issue Description
  This is a basic application that demonstrates an issue with Prisma's new preview feature, driver adapters. You'll notice that this project works great in local development.
 
 ![](static/working-example.png)
