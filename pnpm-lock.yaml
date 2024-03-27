@@ -20,34 +20,34 @@ devDependencies:
     specifier: ^1.16.0
     version: 1.16.0
   '@sveltejs/adapter-auto':
-    specifier: ^3.0.0
+    specifier: ^3.1.1
     version: 3.1.1(@sveltejs/kit@2.5.4)
   '@sveltejs/adapter-vercel':
     specifier: ^5.2.0
     version: 5.2.0(@sveltejs/kit@2.5.4)
   '@sveltejs/kit':
-    specifier: ^2.0.0
+    specifier: ^2.5.4
     version: 2.5.4(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.6)
   '@sveltejs/vite-plugin-svelte':
-    specifier: ^3.0.0
+    specifier: ^3.0.2
     version: 3.0.2(svelte@4.2.12)(vite@5.2.6)
   prisma:
     specifier: ^5.11.0
     version: 5.11.0
   svelte:
-    specifier: ^4.2.7
+    specifier: ^4.2.12
     version: 4.2.12
   svelte-check:
-    specifier: ^3.6.0
+    specifier: ^3.6.8
     version: 3.6.8(svelte@4.2.12)
   tslib:
-    specifier: ^2.4.1
+    specifier: ^2.6.2
     version: 2.6.2
   typescript:
-    specifier: ^5.0.0
+    specifier: ^5.4.3
     version: 5.4.3
   vite:
-    specifier: ^5.0.3
+    specifier: ^5.2.6
     version: 5.2.6
 
 packages:
@@ -828,7 +828,7 @@ packages:
       '@mapbox/node-pre-gyp': 1.0.11
       '@rollup/pluginutils': 4.2.1
       acorn: 8.11.3
-      acorn-import-attributes: 1.9.2(acorn@8.11.3)
+      acorn-import-attributes: 1.9.4(acorn@8.11.3)
       async-sema: 3.1.1
       bindings: 1.5.0
       estree-walker: 2.0.2
@@ -846,8 +846,8 @@ packages:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
     dev: true
 
-  /acorn-import-attributes@1.9.2(acorn@8.11.3):
-    resolution: {integrity: sha512-O+nfJwNolEA771IYJaiLWK1UAwjNsQmZbTRqqwBYxCgVQTmpFEMvBw6LOIQV0Me339L5UMVYFyRohGnGlQDdIQ==}
+  /acorn-import-attributes@1.9.4(acorn@8.11.3):
+    resolution: {integrity: sha512-dNIX/5UEnZvVL94dV2scl4VIooK36D8AteP4xiz7cPKhDbhLhSuWkzG580g+Q7TXJklp+Z21SiaK7/HpLO84Qg==}
     peerDependencies:
       acorn: ^8
     dependencies:
