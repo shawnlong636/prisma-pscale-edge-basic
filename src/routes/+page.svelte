@@ -1,6 +1,9 @@
 <script lang="ts">
     import type { User } from "@prisma/client";
     import { onMount } from "svelte";
+
+    export const runtime = "Edge";
+
     let users: User[] = [];
 
     let is_loading = false;
