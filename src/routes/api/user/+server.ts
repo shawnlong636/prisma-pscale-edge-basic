@@ -47,6 +47,8 @@ function generateRandomName(): string {
     );
 }
 
+const runtime = "edge";
+
 export const POST = (async () => {
     console.log("Creating user");
     const user: User = await prisma.user.create({

@@ -9,5 +9,5 @@ declare global {
         // interface Platform {}
     }
 }
-
+export const runtime = "edge";
 export {};
