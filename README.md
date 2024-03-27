@@ -31,7 +31,7 @@
 ## Issue Description
  This is a basic application that demonstrates an issue with Prisma's new preview feature, driver adapters. You'll notice that this project works great in local development.
 
-![](static/working-example.png)
+![](static/working-example.webp)
 
 However, when vercel attempts to build and deploy the repo, it results in the following error:
 
@@ -39,6 +39,6 @@ However, when vercel attempts to build and deploy the repo, it results in the fo
 
 
 
-![](static/failing-example.png)
+![](static/failing-example.webp)
 
-![](static/vercel-error.png)
+![](static/vercel-error.webp)
