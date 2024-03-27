@@ -11,7 +11,6 @@
 		"postinstall": "prisma generate"
 	},
 	"devDependencies": {
-		"@faker-js/faker": "^8.4.1",
 		"@planetscale/database": "^1.16.0",
 		"@sveltejs/adapter-auto": "^3.1.1",
 		"@sveltejs/adapter-vercel": "^5.2.0",
