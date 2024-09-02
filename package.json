@@ -11,21 +11,21 @@
 		"postinstall": "prisma generate"
 	},
 	"devDependencies": {
-		"@planetscale/database": "^1.16.0",
-		"@sveltejs/adapter-auto": "^3.1.1",
-		"@sveltejs/adapter-vercel": "^5.2.0",
-		"@sveltejs/kit": "^2.5.4",
-		"@sveltejs/vite-plugin-svelte": "^3.0.2",
-		"prisma": "^5.11.0",
-		"svelte": "^4.2.12",
-		"svelte-check": "^3.6.8",
-		"tslib": "^2.6.2",
-		"typescript": "^5.4.3",
-		"vite": "^5.2.6"
+		"@planetscale/database": "^1.19.0",
+		"@sveltejs/adapter-auto": "^3.2.4",
+		"@sveltejs/adapter-vercel": "^5.4.3",
+		"@sveltejs/kit": "^2.5.25",
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"prisma": "^5.19.1",
+		"svelte": "^4.2.19",
+		"svelte-check": "^3.8.6",
+		"tslib": "^2.7.0",
+		"typescript": "^5.5.4",
+		"vite": "^5.4.2"
 	},
 	"type": "module",
 	"dependencies": {
-		"@prisma/adapter-planetscale": "^5.11.0",
+		"@prisma/adapter-planetscale": "^5.19.1",
 		"@prisma/client": "5.11.0"
 	}
 }
