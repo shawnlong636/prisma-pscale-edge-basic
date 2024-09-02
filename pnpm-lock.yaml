@@ -12,8 +12,8 @@ importers:
         specifier: ^5.19.1
         version: 5.19.1(@planetscale/database@1.19.0)
       '@prisma/client':
-        specifier: 5.11.0
-        version: 5.11.0(prisma@5.19.1)
+        specifier: ^5.19.1
+        version: 5.19.1(prisma@5.19.1)
     devDependencies:
       '@planetscale/database':
         specifier: ^1.19.0
@@ -227,8 +227,8 @@ packages:
     peerDependencies:
       '@planetscale/database': ^1.15.0
 
-  '@prisma/client@5.11.0':
-    resolution: {integrity: sha512-SWshvS5FDXvgJKM/a0y9nDC1rqd7KG0Q6ZVzd+U7ZXK5soe73DJxJJgbNBt2GNXOa+ysWB4suTpdK5zfFPhwiw==}
+  '@prisma/client@5.19.1':
+    resolution: {integrity: sha512-x30GFguInsgt+4z5I4WbkZP2CGpotJMUXy+Gl/aaUjHn2o1DnLYNTA+q9XdYmAQZM8fIIkvUiA2NpgosM3fneg==}
     engines: {node: '>=16.13'}
     peerDependencies:
       prisma: '*'
@@ -1070,7 +1070,7 @@ snapshots:
       '@planetscale/database': 1.19.0
       '@prisma/driver-adapter-utils': 5.19.1
 
-  '@prisma/client@5.11.0(prisma@5.19.1)':
+  '@prisma/client@5.19.1(prisma@5.19.1)':
     optionalDependencies:
       prisma: 5.19.1
 
